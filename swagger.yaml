@@ -115,3 +115,12 @@ components:
       properties:
         nama: { type: string }
         jurusan: { type: string }
+        umur: { type: integer }
+        angkatan: { type: integer }
+        absen: { type: integer }
+        kelas: { type: string }
+        alamat: { type: string }
+        telepon: { type: string }
+        email: { type: string }
+        tanggal_lahir: { type: string, format: date }
+        jenis_kelamin: { type: string }
